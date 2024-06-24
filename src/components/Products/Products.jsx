@@ -39,14 +39,6 @@ const ProductsData = [
       color: "Yellow",
       aosDelay: "600",
     },
-    {
-      id: 5,
-      img: Img2,
-      title: "Fashin T-Shirt",
-      rating: 4.5,
-      color: "Pink",
-      aosDelay: "800",
-    },
   ];
 
 const Products = () => {
@@ -86,6 +78,10 @@ const Products = () => {
                             </div>
                         ))
                     }
+                </div>
+                {/* view all button */}
+                <div className='flex justify-center'>
+                  <button className='text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md'>View All Button</button>
                 </div>
             </div>
         </div>
